@@ -1,0 +1,18 @@
+# Temporary download & split files
+downloads/
+*.part
+*.part[0-9]*
+*.ytdl
+*.temp.*
+
+# Credentials & local env (NEVER commit secrets!)
+.env
+cookies.txt
+*cookies*.txt
+
+# Python virtualenvs & cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
